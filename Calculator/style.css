@@ -1,0 +1,95 @@
+
+.cerceve{
+    background-image: linear-gradient(50deg,rgb(36, 52, 138),rgb(47, 47, 47));
+    width: 450px;
+    height: 650px;
+    margin-left: 560px;
+    margin-top: 30px;
+    border-radius: 30px;
+    box-shadow: 5px 10px 10px rgb(46, 46, 46);
+    
+}
+
+.calculator{
+    margin-left: 0px;
+    
+}
+#InputBox{
+    
+    pointer-events: none;
+    color: white;
+    background-color: transparent;
+    width: 410px;
+    height: 130px;
+    text-align: right;
+    word-wrap: break-word;
+    font-size: 50px;
+    border-radius: 0px;
+    border: none;
+}
+
+#buttonlar button{
+  margin-top: 20px;
+  margin-left: 15px;
+  width:  90px;
+  height: 80px;
+  border-radius:24px;
+  font-size: 30px;
+  font-family: 'Barlow', sans-serif;
+  font-weight: bold;
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+
+#buttonlar button:hover{
+   
+    text-shadow: 2px 3px 4px black;
+  }
+  
+
+.operator{
+    background-image: linear-gradient(50deg,rgb(79, 93, 158),rgb(24, 88, 129));
+    border: none;
+    background-color: transparent;
+    font-size:24px;
+    color:white;
+    text-shadow: 1px 1px 1px black;
+    
+}
+.operator:hover{
+    transition: 0.3s;
+    box-shadow: -1px 2px 8px black;
+}
+
+#esittirbtn{
+    background-image: linear-gradient(50deg,rgb(10, 144, 70),rgba(17, 102, 6, 0.459));
+    border: none;
+    background-color: transparent;
+    font-size:24px;
+
+}
+#esittirbtn:hover{
+    border-radius: 30px;
+    transition: 0.3s;
+    border: solid rgb(7, 152, 87);
+    box-shadow: -1px 2px 8px black;
+    
+}
+
+.operatorac{
+    background-image: linear-gradient(50deg,rgb(79, 93, 158),rgb(24, 88, 129));
+    border: none;
+    background-color: transparent;
+    font-size:24px;
+    color:white;
+    text-shadow: 1px 1px 1px black;
+}
+.operatorac:hover{
+    transition: 0.3s;
+    box-shadow: -1px 2px 8px black;
+    border:solid 1px rgb(35, 35, 35);
+    text-shadow: 2px 5px 5px black;
+    
+    
+}
